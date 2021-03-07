@@ -1,61 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>Andrey Kononov CV</title>
+    <title>Andrei Kononov CV</title>
 </head>
+
 <body>
 
-<main>
-    <div class="header">
-        <h1 class="cv__name">Andrey Kononov</h1>
-        <h3 class="cv__name">Junior Developer</h3>
-    </div>
-    <div class="intro">
-        <div class="cv__photo">
-            <img class="avatar" src="../rsschool-cv/assets/images/man.jpg" alt="Andrey's photo">
-            <h5>About me</h5>
-            <p class="about__info">My goal in life is creating the best version of yourself. I work hard, dream big, live life.</p>
-        </div>
-        <div class="container">
-            <div class="contact__info">
-                <h3>Contact info</h3>
-                <p><strong>Address</strong>: Belarus, Minsk</p>
-                <p><strong>Phone</strong>: +375445470116</p>
-                <p><strong>Email</strong>: fastiiilove@list.ru</p>
-            </div>
-            <div class="skills_info">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS basics</li>
-                    <li>English level A2</li>
-                </ul>
-            </div>
-            <div class="project__info">
-                <h3>My projects</h3>
-                <p>To see my projects go to <a href="https://github.com/fastilov3/rsschool-cv">Github profile</a></p>
-            </div>
-            <div class="education__info">
-                <h3>Education</h3>
-                <p>Belarusian State Technological University</p>
-                    <ul>
-                        <li>Faculty of technology of organic substances</li>
-                        <li>From 2014 to 2019</li>
+    <div class="container">
+        <div class="main-inner">
+            <aside class="aside-panel">
+                <img class="avatar" src="assets/images/man.jpg" alt="photo">
+                <section class="contacts">
+                    <h3 class="contacts__title">Contacts</h3>
+                    <ul class="contacts__list">
+                        <li>
+                            <a href="https://www.google.com/maps/d/u/0/viewer?msa=0&ie=UTF8&t=m&ll=53.88748195081608%2C27.559911813935525&spn=6.485466%2C17.556152&z=13&source=embed&mid=1S1SomW7QMGk9EEcwASUV2bggDfM"><strong>Adress:</strong> Belarus, Minsk</a>
+                        </li>
+                        <li>
+                            <a href="tel:+375445470116"><strong>Phone</strong>: +375445470116</a>
+                        </li>
+                        <li>
+                            <a href="mailto:faaastiqz@gmail.com"><strong>Email</strong>: faaastiqz@gmail.com</a>
+                        </li>
+                        <li><strong>Discord</strong>: #2637(f jr~)</li>
                     </ul>
+                </section>
+            </aside>
+            <main class="main-content">
+                <div class="main-content__container">
+                    <header class="header">
+                        <h1>Andrei Kononov</h1>
+                        <h2>Front-end Developer</h2>
+                    </header>
+                    <section class="main-section">
+                        <div class="about-me-wrapper">
+                            <h3 class="about-me__title main__title">About me</h3>
+                            <p class="about-me__text">My goal in life is creating the best version of yourself. I work hard, dream big, live life.</p>
+                        </div>
+                    </section>
+                    <section class="main-section">
+                        <div class="skills">
+                            <h3 class="skills__title main__title">Hard Skills</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="main-section">
+                        <h3 class="main__title">Example of code</h3>
+                        <figure>
+                            <img class="img-code" src="assets/images/code.png" alt="example of code">
+                            <figcaption>Example of code</figcaption>
+                    </section>
+                    <section class="main-section">
+                        <h3 class="main__title">Education and training courses</h3>
+                        <ul>
+                            <li class="education-list">Belarusian State Technological University</li>
+                            <li class="education-list">JavaScript on learn.javascript.ru</li>
+                            <li class="education-list">JavaScript on developer.mozilla.org</li>
+                            <li class="education-list">Video Lessons JavaScript by Vladilen Minin</li>
+                            <li class="education-list">HTML Academy Video Lessons HTML, CSS and JavaScript</li>
+                        </ul>
+                    </section>
+                    <section class="main-section">
+                        <h3 class="main__title">English language</h3>
+                        <p>Intermediate English - B1</p>
+                    </section>
+                </div>
 
-            </div>
+            </main>
+
         </div>
+        <footer class="footer">
+            <div class="footer__container">
+                <a href="https://rs.school/js/"><img src="assets/images/rss-logo.svg" alt="rss-logo" width="160" height="80"></a>
+                <div class="github">
+                    <p class="github__text gh">2021</p>
+                    <a class="github__link gh" href="https://github.com/fastilov3">GitHub Profile</a>
+                </div>
+            </div>
 
+        </footer>
     </div>
 
-</main>
-    
-    
 </body>
-</html>  
+
+</html>
